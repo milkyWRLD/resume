@@ -18,6 +18,33 @@ body {
 	color: white;
 }
 
+header {
+	background-color: #1f1f1f;
+	padding: 20px 0;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: var(--primary-color);
+}
+
 /* common styles */
 img {
 	width: 100%;
